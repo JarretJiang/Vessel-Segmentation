@@ -24,7 +24,7 @@ dir_model = 'output'
 dir_res = 'output'
 
 # --- Read video and pre-process ---
-video_name='c210904160305137.avi'
+video_name='c0001.avi'
 video, framerate = init1.loadvideo(os.path.join(dir_data,video_name))
 video = video.astype(np.float32)
 # [channel, frame, depth, width]
